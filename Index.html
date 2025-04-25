@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Run Adeventure Game</title>
+    <link rel="stylesheet" href="styles.css"> 
+
+    <head>
+
+    <body>
+        <header>
+            <h1>Temple Run Adventure<h1>
+            <p>Prepare for an exciting Journey!</p>
+        </header>
+
+        <main>
+            
+            <section id="story-intro" class="content">
+                <P>Welcome to the Temple Run Adevnture! Your quest is to escape the temple and face thrilling challenges
+                    ahead. Are you ready to begin?</p>
+                <button id="start-button" onclick="StartAdevnture()" aria-label="Start the adevnture">Start Adventure</button>
+            </section>
+
+            
+            <section id="decision-points" class="content" style="display: none;">
+                <p id="question">Your Journey begins...</p> 
+                <ul id="answers"></ul> 
+            </section>
+
+            
+            <section id="story-conclusion" class="content">
+                <p id="conclusion-text"></p>
+                <button id="restart-button" onclick="restartAdventure()" aria-label="Restart the Adventure">restartAdventure</button>
+            </section>
+        </main>
+
+        <footer>
+            <P>&copy; 2024 Temple Run Adventure Game</P>
+        </footer>
+
+        <script src="script.js"></script> 
+    </body>
+
+</html>
